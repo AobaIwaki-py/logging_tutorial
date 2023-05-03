@@ -1,7 +1,7 @@
 # Tutorial for logging - Python 
 ## Pythonのloggingモジュールを簡単に使うためのおまじない
 
-## このモジュールについて
+## About This Module / このモジュールについて
 
 基本的に`logging_module`をインポートするだけで`logging`モジュールを使えるようになります。
 
@@ -17,7 +17,7 @@
 ```
 ## Usage / 使い方
 
-### コードの書き方
+### Implementation / コードの書き方
 
 ```python
 from logging_module import get_logger
@@ -34,7 +34,7 @@ if __name__=="__main__":
     main(logger)
 ```
 
-### 実行結果
+### Output / 実行結果
 - `result_dir=None`の場合、以下の内容が`./test_main.log`に出力される
 - `result_dir='log'`の場合、以下の内容が`./dir/test_main.log`に出力される
 
